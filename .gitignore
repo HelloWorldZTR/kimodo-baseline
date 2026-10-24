@@ -153,6 +153,8 @@ nohup.out
 *.un~
 *~
 train_done
+/benchmark_sources/
+/.venv-benchmark/
 .aider*
 onelogger.err
 

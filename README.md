@@ -7,6 +7,8 @@
 
 ## Overview
 
+Local nine-task comparison with OmniControl: [Command9 setup and condition mapping](docs/command9_benchmark.md).
+
 Kimodo is a **ki**nematic **mo**tion **d**iffusi**o**n model trained on a large-scale (700 hours) commercially-friendly optical motion capture dataset. The model generates high-quality 3D human and robot motions, and is controlled through text prompts and an extensive set of constraints such as full-body pose keyframes, end-effector positions/rotations, 2D paths, and 2D waypoints. Full details of the model architecture and training are available in the [technical report](https://research.nvidia.com/labs/sil/projects/kimodo/assets/kimodo_tech_report.pdf).
 
 This repository provides:

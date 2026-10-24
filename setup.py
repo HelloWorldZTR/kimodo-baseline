@@ -94,7 +94,7 @@ class CMakeBuild(build_ext):
                     )
 
 
-kimodo_packages = find_packages(include=["kimodo", "kimodo.*"])
+kimodo_packages = find_packages(include=["kimodo", "kimodo.*", "kimodo_benchmark", "kimodo_benchmark.*"])
 
 # When set (e.g. in Docker), do not bundle motion_correction here; it is installed
 # separately (e.g. from docker_requirements.txt as ./MotionCorrection) non-editable.

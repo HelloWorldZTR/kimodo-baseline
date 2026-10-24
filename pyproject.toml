@@ -33,6 +33,9 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
+command9 = [
+  "matplotlib>=3.6,<3.11",
+]
 demo = [
   "viser @ git+https://github.com/nv-tlabs/kimodo-viser.git",
 ]
@@ -45,6 +48,10 @@ all = [
 ]
 
 [project.scripts]
+kimodo_command9_export = "kimodo_benchmark.export:main"
+kimodo_command9_export_main = "kimodo_benchmark.export_main:main"
+kimodo_command9_generate = "kimodo_benchmark.generate:main"
+kimodo_command9_score = "kimodo_benchmark.score:main"
 kimodo_gen = "kimodo.scripts.generate:main"
 kimodo_demo = "kimodo.demo:main"
 kimodo_textencoder = "kimodo.scripts.run_text_encoder_server:main"
